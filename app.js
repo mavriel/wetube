@@ -10,6 +10,7 @@ import userRouter from './routers/userRouter';
 import videoRouter from './routers/videoRouter';
 import routes from './routers/routes';
 import { localsMiddleware } from './midlewares';
+import './passport';
 
 const app = express();
 
